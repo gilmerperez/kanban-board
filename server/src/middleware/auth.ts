@@ -13,7 +13,11 @@ export const authenticateToken = (req: Request, res: Response, next: NextFunctio
   // Check if authorization header is present
   if (authHeader) {
     // Extract token from the authorization header
-    const token = authHeader.split('')[1];
+    const token = authHeader.split(' ')[1];
+    // Error Handling
+    console.log(token);
+    console.log(authHeader);
+
     // Get secret key from the environment variables
     const secretKey = process.env.JWT_SECRET_KEY || '';
     // Verify JWT token
