@@ -82,7 +82,7 @@ This project relies on the following tools and technologies:
 
 ## Additional Resources
 
-* The URL of the deployed application: [Render Deployment](https://kanban-board-0msw.onrender.com/)
+* The URL of the deployed application: [Render Deployment](https://kanban-board-1-rluo.onrender.com)
 
 * The URL of the GitHub repository: [GitHub Repository](https://github.com/gilmerperez/kanban-board)
 
