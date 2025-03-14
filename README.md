@@ -1,6 +1,6 @@
 # Full-Stack React: Kanban Board
 
-## Description
+## Project Overview
 
 This project implements a Kanban board with authentication using JSON Web Tokens (JWT). The Kanban board allows users to manage their work tasks by sorting them into columns based on their status. The goal of this project is to secure the application by adding JWT-based authentication, allowing users to log in and access their tasks securely.
 
@@ -17,7 +17,7 @@ JWTs are used for verifying user identities and enabling authenticated API reque
 
 ## Usage
 
-To start the application, run the following command:
+To start the application, run the following command in your terminal:
 
 ```bash
 npm run start
